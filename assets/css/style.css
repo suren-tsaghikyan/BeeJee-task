@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 30px 0;
+  box-shadow: 0 3px #61C9C2;
+}
+
+.btn_login {
+	border: none;
+	outline: none;
+	background-color: #61C9C2;
+	padding: 12px 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn_login:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#absoluteCenteredDiv {
+     position: absolute;
+     top:0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     width: 600px;
+     height: 300px;
+     text-align: center;
+}
+
+.box {
+   background:white;
+   width: 600px;
+   border-radius:6px;
+   margin: 0 auto 0 auto;
+   padding: 30px;
+   border: #61C9C2 4px solid; 
+}
+
+.add_new_task {
+    border: none;
+    outline: none;
+    background: #61c975;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-logo {
+  color: #61C9C2;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.header-logo:hover {
+  color: #61C9C2;
+  text-decoration: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  background: none;
+  color: black!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: none;
+  border: 1px solid #61C9C2;
+  color: black!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: #61C9C2;
+  border: 1px solid #61C9C2;
+  color: white!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+  background: none;
+  color: black!important;
+}
+
+.editTask {
+  color: #d4d441;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.completedTask {
+  color: #45c71e;
+  font-size: 20px;
+  cursor: pointer;
+}
